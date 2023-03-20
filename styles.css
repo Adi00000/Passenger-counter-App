@@ -1,0 +1,30 @@
+
+body{
+    background-image: url("station.jpg");
+    background-size: 95%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+   border: 1px solid blue;
+   width: 30em;
+  margin: 10em auto;
+  background-color: whitesmoke;
+}
+button{
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+    font-family: inherit;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+#increment-btn{
+    background-color: red;
+}
+#save-btn{
+    background-color: green;
+}
